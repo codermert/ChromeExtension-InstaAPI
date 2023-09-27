@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>Instagram Post Extension</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Instagram Post Extension</h1>
+  <label for="username">Kullanıcı Adı:</label>
+  <input type="text" id="username"><br>
+  <label for="password">Şifre:</label>
+  <input type="password" id="password"><br>
+  <label for="piece">Resim Sayısı (2-10):</label>
+  <input type="number" id="piece" min="2" max="10"><br>
+  <label for="bio">Bio:</label>
+  <input type="checkbox" id="bio"><br>
+  <label for="profilePhoto">Profil Fotoğrafı:</label>
+  <input type="checkbox" id="profilePhoto"><br>
+  <label for="story">Hikaye:</label>
+  <input type="checkbox" id="story"><br>
+  <button id="submit">Gönder</button>
+  <div id="result">
+    <div class="spinner"></div>
+    <p></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
